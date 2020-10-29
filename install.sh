@@ -29,7 +29,7 @@ if [ "$(cat /proc/cpuinfo | grep 'Revision')" != "" ]; then
 	echo "LynxCI: The target device is a Raspberry Pi."
 fi
 #
-# A junk file is stored to dtermine if the script has already run. It's created
+# A junk file is stored to determine if the script has already run. It's created
 # at the end of this script, so if it's discovered, we know this script already
 # ran.
 #
